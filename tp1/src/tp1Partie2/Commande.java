@@ -34,7 +34,7 @@ public class Commande {
 		nbPoulet=pNbPoulet;
 		
 		
-		String[] tab=lireFichier(new File("facture.txt").getAbsolutePath());
+		String[] tab=lireFichier(new File("src/tp1Partie2/facture.txt").getAbsolutePath());
 		
 		PrixPoutine = Double.parseDouble(tab[6]);
 		PrixFrite = Double.parseDouble(tab[8]);

@@ -18,16 +18,22 @@ public class PrincipalPartie2 {
 	
 	public static void main(String[] args) throws IOException {
 		
-		String[] tab=lireFichier(new File("facture.txt").getAbsolutePath());
+		String[] tab=lireFichier(new File("src/tp1Partie2/facture.txt").getAbsolutePath());
+		
 		
 		
 		tabClient[0]=tab[1];
+		
+		
+		
 		tabClient[1]=tab[2];
 		tabClient[2]=tab[3];
 		
 		tabPlats[0]=tab[5];
 		tabPlats[1]=tab[7];
 		tabPlats[2]=tab[9];
+		
+		
 		
 		System.out.println("Bienvenue chez Barette");
 		
@@ -64,7 +70,7 @@ public class PrincipalPartie2 {
 		com3.afficheTotal();
 		
 		
-		
+		 
 		
 	}
 	
